@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
             e.printStackTrace();
         }
 
-        mediaUri = Uri.parse("https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4");
+        mediaUri = Uri.parse("http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4");
         final SurfaceHolder surfaceHolder = surfaceView.getHolder();
         surfaceHolder.addCallback(this);
         mediaPlayer = MediaPlayer.create(this, mediaUri);
